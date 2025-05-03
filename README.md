@@ -16,6 +16,7 @@ This Python program implements the Caesar Cipher encryption and decryption techn
 2. Run the Python script by navigating to the folder and executing it in your terminal or command prompt:
 python caesar_cipher.py
 3. Follow the on-screen prompts:
+   
 Type E to Encrypt.
 
 Type D to Decrypt.
