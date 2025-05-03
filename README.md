@@ -13,11 +13,13 @@ This Python program implements the Caesar Cipher encryption and decryption techn
 
 1. **Clone this repository** to your local machine or use the `Download` option.
       git clone https://github.com/yourusername/PRODIGY_CS_03.git
-Run the Python script by navigating to the folder and executing it in your terminal or command prompt:
+2. Run the Python script by navigating to the folder and executing it in your terminal or command prompt:
 python caesar_cipher.py
-Follow the on-screen prompts:
+3. Follow the on-screen prompts:
 Type E to Encrypt.
+
 Type D to Decrypt.
+
 Type Q to Quit.
 
 Provide your message and shift value as prompted.
