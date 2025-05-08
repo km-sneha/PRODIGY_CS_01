@@ -1,26 +1,50 @@
+# 🛡️ Task 1: Caesar Cipher - Encryption & Decryption Tool
 
-# Caesar Cipher Tool - Task 01
+## 🔐 Description
+This project is a simple Python-based Caesar Cipher tool that allows users to encrypt and decrypt messages. It uses a user-defined shift to rotate letters in the alphabet, preserving the original case and non-alphabet characters.
 
-This Python program implements the Caesar Cipher encryption and decryption technique. It allows users to either encrypt or decrypt a message by entering a shift value.
+## 📌 Features
+- Encrypt messages using a Caesar shift
+- Decrypt messages with the same shift
+- Keeps punctuation, spaces, and digits unchanged
+- User-friendly command-line interface
 
-## Key Features:
-- Encrypt and decrypt messages with the Caesar Cipher.
-- Supports both uppercase and lowercase letters.
-- Validates user input for the shift value.
-- Allows users to run the program multiple times until they decide to quit.
+## 🚀 How to Run
 
-## Usage Instructions:
+1. **Install Python** (if not already installed):
+   - Download from [python.org](https://www.python.org/downloads/)
 
-1. **Clone this repository** to your local machine or use the `Download` option.
-      git clone https://github.com/yourusername/PRODIGY_CS_03.git
-2. Run the Python script by navigating to the folder and executing it in your terminal or command prompt:
-python caesar_cipher.py
-3. Follow the on-screen prompts:
-   
-Type E to Encrypt.
+2. **Run the Script**:
+   Open a terminal or command prompt and execute:
+   ```bash
+   python caesar_cipher.py
+   ```
 
-Type D to Decrypt.
+3. **Follow the Prompts**:
+   - Type `E` to encrypt a message
+   - Type `D` to decrypt a message
+   - Enter your message and the shift value
+   - Type `Q` to quit the program
 
-Type Q to Quit.
+## 🧠 How It Works
+The Caesar Cipher is a substitution cipher where each letter in the plaintext is shifted a certain number of places down or up the alphabet.
 
-Provide your message and shift value as prompted.
+Example:
+```
+Original:  HELLO
+Shift:     +3
+Encrypted: KHOOR
+```
+
+For decryption, the shift is simply reversed.
+
+## 💡 Sample Usage
+```
+Type 'E' to Encrypt or 'D' to Decrypt (Q to quit): E
+Enter your message: Hello, World!
+Enter shift value (number): 3
+Encrypted Message: Khoor, Zruog!
+```
+
+## 👩‍💻 Author
+Sneha K M
